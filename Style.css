@@ -74,3 +74,19 @@ link-2,
 	background: #16A085;
 }
 
+.tulisan_tengah{
+	text-align: center;
+}
+
+.tulisan_kiri{
+	text-align: left;
+}
+
+.tulisan_kanan{
+	text-align: right;
+}
+
+.text_justify{
+	text-align: justify;
+}
+
