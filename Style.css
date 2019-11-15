@@ -36,3 +36,41 @@
 	font-weight:bold;
 	font-style: oblique;
 }
+
+.link{
+
+	font-size: 20pt;
+}
+
+.link:hover{
+	color:black;
+}
+
+.link:link{
+	color:blue;
+}
+
+.link:active{
+	color:green;
+}
+
+.link:visited{
+	background: yellow
+}
+
+link-2,
+.link-2:link,
+.link-2:active,
+.link-2:visited{
+	font-size: 20pt;
+	background: #1ABC9C;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+	font-family: sans-serif;	
+}
+ 
+.link-2:hover{
+	background: #16A085;
+}
+
