@@ -3,17 +3,36 @@
 
 	}
 .box{
-	background: url('Himuo - Sponsor.jpg');
-	color :white;
-	padding: 10px;
-	width :300px;
-	height: 100px;
+	background  : url('Himuo - Sponsor.jpg');
+	color 		:white;
+	
+	width		:300px;
+	height: 	: 100px;
 }
 
 .box-2{
-	background : red;
-	color : white;
-	height : 100px;
-	width : 200px;
-	margin-left: 70px;
+	background 	: red;
+	color  		: white;
+	padding     : 50px;
+	height 		: 100px;
+	width  		: 200px;
+	margin-left : 70px;
+}
+
+.tulisan_satu{
+	color: red;
+	font-family: sans-serif;
+	font-style:normal;
+}
+
+.tulisan_dua{
+	color: green;
+	font-size:24pt;
+	font-style: italic;
+}
+
+.tulisan_tiga{
+	color: blue;
+	font-weight:bold;
+	font-style: oblique;
 }
