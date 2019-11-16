@@ -72,21 +72,52 @@ link-2,
  
 .link-2:hover{
 	background: #16A085;
+
 }
 
 .tulisan_tengah{
 	text-align: center;
+	text-transform: uppercase;
+	text-indent: 30px;
+	line-height: 30px;
+	letter-spacing: 5px;
 }
 
 .tulisan_kiri{
 	text-align: left;
+	text-transform: lowercase;
+	text-decoration: line-through;
+	word-spacing: 10px;
 }
 
 .tulisan_kanan{
 	text-align: right;
+	text-transform: capitalize;
+	text-decoration: overline;
 }
 
 .text_justify{
 	text-align: justify;
 }
+
+.kotak1{
+	background: blue;
+	position : static;
+}
+
+.kotak2{
+	background : red;
+	position : relative;
+	right : 40px;
+	padding : 10px;
+}
+
+.kotak3{
+	background : green;
+	position : fixed;
+	right : 40px;
+	padding : 10px;
+}
+
+
 
