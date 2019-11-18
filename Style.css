@@ -167,3 +167,9 @@ ol.Place{
 ol.Mobil{
 	list-style-type: upper-alpha;
 }
+
+.picture{
+	width: 300px;
+	float:left;
+	margin-right: 10px;
+}
