@@ -149,5 +149,21 @@ link-2,
 	border-color:#12ff00;
 }
 
+ul.Food{
+	list-style-type: square;
 
+}
 
+ul.Drink{
+	list-style-type: circle;
+
+}
+
+ol.Place{
+	list-style-type: upper-roman;
+	
+}
+
+ol.Mobil{
+	list-style-type: upper-alpha;
+}
