@@ -13,15 +13,21 @@ body{
 	width: 1150px;
 }
 
+.center2{
+	margin: 10px auto;
+	width:  1150px;
+}
+
 .CircleStyle
 {
 	background: #fcfcfc;
 	padding: 20px;
 	width: 200px;
 	float : left;
-	margin:20px;
+	margin:10px;
 	height: 200px;
 }
+
 
 .Circle1{
 	border-radius: 10px 10px 10px 10px;
@@ -41,7 +47,7 @@ body{
 }
 
 .Circle5{
-	border-radius: 0px 0px 0px 0px;
+	border-radius: 200px 0px 0px 0px;
 }
 
 .Circle6{
@@ -54,4 +60,26 @@ body{
 
 .Circle8{
 	border-radius: 10px 10px 50% 50%;
+}
+
+.Box{
+	background: blue;
+	width:500px;
+	height: 250px;
+	float: left;
+	margin :30px;
+}
+
+.Gradient1{
+	background: linear-gradient(blue,green);
+}
+
+.Gradient2{
+	background: linear-gradient(red,green,blue);
+}
+.Gradient3{
+	background: radial-gradient(red,yellow,blue);
+}
+.Gradient4{
+	background: linear-gradient(red,green);
 }
