@@ -1,0 +1,57 @@
+body{
+	background: #35A9DB;
+	font-family: roboto;
+	text-align: center;
+}
+
+ h1{
+	color: #fff;
+}
+ 
+.center{
+	margin: 10px auto;
+	width: 1150px;
+}
+
+.CircleStyle
+{
+	background: #fcfcfc;
+	padding: 20px;
+	width: 200px;
+	float : left;
+	margin:20px;
+	height: 200px;
+}
+
+.Circle1{
+	border-radius: 10px 10px 10px 10px;
+}
+
+.Circle2{
+	border-radius: 40px 20px 60px 90px;
+}
+ 
+
+.Circle3{
+	border-radius: 20px 10px 80px 10px;
+}
+
+.Circle4{
+	border-radius: 0px 50px 0px 50px;
+}
+
+.Circle5{
+	border-radius: 0px 0px 0px 0px;
+}
+
+.Circle6{
+	border-radius: 100%;
+}
+
+.Circle7{
+	border-radius: 40px 10px;
+}
+
+.Circle8{
+	border-radius: 10px 10px 50% 50%;
+}
