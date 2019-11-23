@@ -206,3 +206,51 @@ body{
 	-ms-transform: skewY(20deg);
 	-webkit-transform: skewY(20deg);
 }
+
+.Box-rotate1{
+	background: #fcfcfc;
+	padding: 20px;
+	float:left;
+	margin:50px;
+	height:150px;
+	width: 150px;
+}
+
+.Box-rotate2{
+
+	background: #fcfcfc;
+	padding:20px;
+	float  :left;
+	margin :50px;
+	height :150px;
+	width  :150px;
+	transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+
+	
+}
+
+.Box-rotate3{
+	background: #fcfcfc;
+	padding: 20px;
+	float: left;
+	margin: 50px;
+	height: 150px;
+	width: 150px;
+	transform: rotate(S);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+}
+
+.Box-rotate4{
+	background: #fcfcfc;
+	padding: 20px;
+	float:left;
+	margin:50px;
+	height:150px;
+	width: 150px;
+	transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+}
