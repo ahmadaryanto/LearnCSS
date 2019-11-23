@@ -142,8 +142,67 @@ body{
 	background: #Fcfcfc;
 	padding: 20px;
 	float:left;
-	margin:20px
+	margin:20px;
 	width: 150px;
 	height: 150px;
 	transform: scale(1,2);
+	-ms-transform: scale(1,2); 
+    -webkit-transform: scale(1,2);
+}
+
+.Box-skew1{
+	background: #fcfcfc;
+	padding: 20px;
+	float:left;
+	margin: 50px;
+	height: 150px;
+	width: 150px;
+}
+
+.Box-skew2{
+	background: #fcfcfc;
+	padding:20px;
+	float:left;
+	margin: 50px;
+	height: 150px;
+	width: 150px;
+	transform : skew(20deg);
+	-ms-transform:skew(20deg);
+	-webkit-transform:skew(20deg);
+}
+
+.Box-skew3{
+	background: #Fcfcfc;
+	padding: 20px;
+	float: left;
+	margin: 50px;
+	height: 150px;
+	width: 150px;
+	transform: :skew(30deg,20deg);
+	-ms-transform:skew(30deg,20deg);
+	-webkit-transform:skew(30deg,20deg);
+}
+
+.Box-skew4{
+	background: #fcfcfc;
+	padding: 20px;
+	float: left;
+	margin :50px;
+	height: 150px;
+	width: 150px;
+	transform: skewX(20deg)
+	-ms-transform: skewX(20deg);
+	-webkit-transform:skewX(20deg);
+}
+
+.Box-skew5{
+	background: #fcfcfc;
+	padding:20px;
+	float: left;
+	margin: 50px;
+	height: 150px;
+	width: 150px;
+	transform: skewY(20deg);
+	-ms-transform: skewY(20deg);
+	-webkit-transform: skewY(20deg);
 }
