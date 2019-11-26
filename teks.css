@@ -1,0 +1,78 @@
+.biru {
+	color:blue;
+	text-align: left;
+}
+
+.hijau{
+	color:green;
+	text-align: right;
+}
+
+.merah{
+	color:red;
+	text-align: center;
+}
+
+.kuning{
+	color:yellow;
+}
+
+h1{
+	font-family: arial;
+	text-shadow: 0px 15px 5px red;
+	
+}
+
+h2 { 
+	font-family: comic sans;
+
+}
+
+body {
+	font-size: 20pt;
+}
+
+p{
+	font-size:12pt;
+	font-family: generic-family;
+	font-weight: lighter;
+	font-style: normal;
+	direction: ltr;
+	text-align: justify;
+	text-decoration:line-through;
+	text-indent: 10%;
+	text-transform: :capitalize;
+	word-spacing: 10px;
+
+	color:rgb(255,0,0);
+}
+
+
+
+p.satu{
+	font-size: 8mm;
+}
+
+p.dua{
+	font-size: 0.35in;
+}
+
+p.tiga{
+	font-size: 2.2pc;
+}
+
+p.empat{
+	font-size:20px;
+}
+
+p.lima{
+	font-size: 1.8em;
+}
+
+p.enam{
+	font-size:3ex;
+}
+
+p.tujuh{
+	font-size: 190%;
+}
