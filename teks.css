@@ -24,15 +24,18 @@ h1{
 }
 
 h2 { 
-	font-family: comic sans;
-
+	font-family: Arial;
+	color: blue;
+		text-decoration:underline;
+		
 }
 
 body {
 	font-size: 20pt;
+
 }
 
-p{
+/*p{
 	font-size:12pt;
 	font-family: generic-family;
 	font-weight: lighter;
@@ -45,12 +48,40 @@ p{
 	word-spacing: 10px;
 
 	color:rgb(255,0,0);
+} */
+
+.style{
+		font-size:20pt;
+	font-family: generic-family;
+	font-weight: lighter;
+	font-style: normal;
+
+	text-align: justify;
+	text-decoration:none;
+	text-indent: 10%;
+	text-transform: :capitalize;
+	word-spacing: 10px;
+
+	color:black;
+}
+
+.style2{
+	font-size:20pt;
+	font-family: generic-family;
+	font-weight: bold;
+	font-style: italic;
+	text-align: justify;
+	text-decoration:none;
+	
+	text-transform: :capitalize;
+	word-spacing: 10px;
+
+	color:red;
 }
 
 
-
 p.satu{
-	font-size: 8mm;
+	
 }
 
 p.dua{
@@ -75,4 +106,35 @@ p.enam{
 
 p.tujuh{
 	font-size: 190%;
+}
+
+span{
+	float: left;
+	width: 0.7em;
+	font-size: 400%;
+	font-family: algerian;
+	line-height: 80%; /* jarak antara paragraf */
+}
+
+div {
+	float : right;
+	width: 120px;
+	padding : 15px;
+	border: 1px solid;
+	text-align: center;;
+	line-height: 80%; /* jarak antara paragraf */
+}
+
+.scroll{
+	background-color: cyan;
+	width: 100px;
+	height: 100px;
+	overflow: scroll;
+}
+
+.hidden {
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
 }
