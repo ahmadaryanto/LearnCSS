@@ -278,3 +278,37 @@ body{
 	-ms-transform: matrix(1,2,-1,1,5,4);
 	-webkit-transform: matrix(1,2,-1,1,5,4);
 }
+
+.Box-transition1{
+	background: #ffff;
+	width:100px;
+	height: 100px;
+	transition: width 1s;
+	-webkit-transition: width 1s;
+	-ms-transition: width 1s;
+	margin :50px;
+	float:left;
+	padding: 20px;
+}
+
+.Box-transition1:hover{
+	width: 300px
+}
+
+.Box-transition2{
+	background: #fff;
+	width:100px;
+	height: 100px;
+	transition: width 1s, height 2s;
+	-webkit-transition: width 1s,height 2s;
+	-ms-transition: width 1s, height 2s;
+	margin :50px;
+	float:left;
+	padding: 20px;
+}
+
+.Box-transition2:hover{
+	width: 300px;
+	height: 300px;
+}
+
