@@ -312,3 +312,41 @@ body{
 	height: 300px;
 }
 
+.Boxtr{
+	width: 100px;
+	background: #fff;
+	height: 60px;
+	margin: 10px;
+	-webkit-transition: width 2s;
+    transition: width 2s;
+}
+
+.Boxtr:hover{
+	width: 400px;
+}		
+
+.Transition1{
+	transition-timing-function: linear;
+}
+
+.Transition2{
+	transition-timing-function: ease;
+
+}
+
+.Transition3{
+	transition-timing-function: ease-in;
+}
+
+.Transition4{
+	transition-timing-function: ease-out;
+}
+
+.Transition5{
+	transition-timing-function: ease-in-out;
+}
+
+.Transition6{
+	transition-timing-function: cubic-bezier(2,4,5,6);
+}
+
