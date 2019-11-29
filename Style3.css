@@ -350,3 +350,16 @@ body{
 	transition-timing-function: cubic-bezier(2,4,5,6);
 }
 
+
+.BoxAnim{
+	background: blue;
+	width: 200px;
+	height: 200px;
+	animation-name: Box_Animation;
+	animation-duration: 2s;
+}
+
+@keyframes Box_Animation{
+	from{background: blue;}
+	to{background: red;}
+}
